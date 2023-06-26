@@ -21,3 +21,9 @@ Then signup at [scrapingapi.net](https://scrapingapi.net) to get your API key.
 ## Parameters
 
 The documentation can be found at this URL: [https://scrapingapi.net/documentation](https://scrapingapi.net/documentation).
+
+## Publish
+
+```
+docker build --build-arg NUGET_API_KEY=yourapikeyhere -t yourimagename .
+```
